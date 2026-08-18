@@ -26,10 +26,10 @@ function App() {
     }
 
     try {
-      const response = await fetch("http://localhost:8000/analyze", {
-        method: "POST",
-        body: formData, 
-      });
+      const response = await fetch("https://resume-analyzer-backend-amdi.onrender.com/analyze", {
+    method: "POST",
+    body: formData,
+});
 
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
