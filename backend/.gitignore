@@ -1,0 +1,15 @@
+# Python / Backend
+__pycache__/
+venv/
+env/
+*.pyc
+resumes/
+backend/.env
+
+# Node modules (Frontend)
+node_modules/
+dist/
+
+# Environment Variables & Keys
+.env
+*.env
